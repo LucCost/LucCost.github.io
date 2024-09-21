@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Servidor de Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>G38</h1>
+        <p>Esse é um front-end básico para testar a comunicação no servidor.</p>
+        
+        <div class="input-area">
+            <label for="message">Envie uma mensagem:</label>
+            <input type="text" id="message" placeholder="Digite sua mensagem">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+        
+        <div id="response">
+            <h2>Resposta do Servidor:</h2>
+            <p id="server-response">Aguardando...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
