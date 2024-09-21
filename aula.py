@@ -1,1 +1,1 @@
-print("Nask chupa pinto")
+print(1 + 1)
