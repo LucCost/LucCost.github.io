@@ -1,1 +1,0 @@
-print("G38 chupa pinto")
