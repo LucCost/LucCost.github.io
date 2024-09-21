@@ -1,1 +1,1 @@
-print("Nask chupa pinto")
+print("G38 chupa pinto")
